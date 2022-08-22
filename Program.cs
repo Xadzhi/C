@@ -53,7 +53,7 @@ else
     }
 }
 
-Задача 3 */
+Задача 3 
 Console.WriteLine("Введите число: a ");
 int number = int.Parse(Console.ReadLine());
 int n = number % 2 ;
@@ -64,5 +64,13 @@ Console.WriteLine("Данное число является четным");
 else
 {
 Console.WriteLine("Данное число не является четным");
-}
+}*/
+/*Задача 4*/
 
+
+Console.WriteLine("Введите число: a ");
+int number = int.Parse(Console.ReadLine());
+for (int i = 2; i <= number; i=i+2)
+{
+    Console.WriteLine( i + " ");
+}
