@@ -56,11 +56,13 @@ else
 Задача 3 */
 Console.WriteLine("Введите число: a ");
 int number = int.Parse(Console.ReadLine());
-if (number%2)
+int n = number % 2 ;
+if ( n <= 0 )
 {
-Console.WriteLine("Данное число делится на 2");
+Console.WriteLine("Данное число является четным");
 }
 else
 {
-Console.WriteLine("Данное число не делится на 2");
+Console.WriteLine("Данное число не является четным");
 }
+
