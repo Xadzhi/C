@@ -1,2 +1,66 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*Console.WriteLine("Введите число: ");
+
+int number = int.Parse(Console.ReadLine());
+
+int sq = number * number;
+
+int pow = Convert.ToInt32(Math.Pow(number, 2));
+
+System.Console.WriteLine("Квадрат числа равен: " +sq);
+
+System.Console.WriteLine("Квадрат числа равен: " + pow);*/
+/* Задача 1 
+Console.WriteLine("Введите число: a ");
+int number1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число: b ");
+int number2 = int.Parse(Console.ReadLine());
+if (number1>number2)
+{
+    Console.WriteLine("число " + number1 + " больше" );
+}
+else
+{
+    Console.WriteLine("число " + number2 + " больше" );
+} */
+/* Задача 2
+
+Console.WriteLine("Введите число: a ");
+int number1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число: b ");
+int number2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число: с ");
+int number3 = int.Parse(Console.ReadLine());
+if (number1>number2)
+{
+    if (number1>number3)
+    {
+        Console.WriteLine("Самое большое число " + number1);
+    }
+    else
+    {
+        Console.WriteLine("Самое большое число " + number3);
+    }
+}
+else    
+{
+     if (number2>number3)
+    {
+        Console.WriteLine("Самое большое число " + number2);
+    }
+    else
+    {
+        Console.WriteLine("Самое большое число " + number3);
+    }
+}
+
+Задача 3 */
+Console.WriteLine("Введите число: a ");
+int number = int.Parse(Console.ReadLine());
+if (number%2)
+{
+Console.WriteLine("Данное число делится на 2");
+}
+else
+{
+Console.WriteLine("Данное число не делится на 2");
+}
